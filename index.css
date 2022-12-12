@@ -8,12 +8,22 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 img {
     border-radius: 50%;
     height: auto;
     width: 200px;
+    margin-top: 20px;
 }
 
 .bold {
@@ -30,23 +40,54 @@ main a:active {
 }
 
 section:nth-of-type(1) {
-    background-color: #D7D7D7;
+    background-color: #252525;
     width: 100%;
     height: auto;
     padding: 40px;
+    color: #fff;
 }
 
 
 section:nth-of-type(2) {
-    background-color: #FFEAEA;
     width: 100%;
     height: auto;
     padding: 40px;
 }
 
 section:nth-of-type(3) {
-    background-color: #EAF9FF;
+    background-color: #252525;
     width: 100%;
     height: auto;
     padding: 40px;
+    color: #fff;
+}
+
+section:nth-of-type(3) h5,
+p {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: #99D930;
+    color: #252525;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #131313;
+    color: #fff;
+}
+
+section:nth-of-type(3) :nth-child(2),
+section:nth-of-type(2) :nth-child(3)
+/* another way to grab that element using pseudo class */
+/* section:nth-of-type(3) article:nth-of-type(1) { */
+
+    {
+    padding: 10px;
 }
