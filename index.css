@@ -5,3 +5,12 @@ body {
 img {
     border-radius: 50%;
 }
+
+main h3 {
+    font-size: larger;
+}
+
+main p {
+    font-weight: 800;
+    font-size: larger;
+}
