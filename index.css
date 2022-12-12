@@ -9,10 +9,15 @@ img {
     border-radius: 50%;
 }
 
-main h3 {
-    font-size: 26px;
-}
-
 .bold {
     font-size: 40px;
+}
+
+main a {
+    color: #99D930;
+}
+
+main a:hover,
+main a:active {
+    color: #131313;
 }
