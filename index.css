@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -7,6 +12,8 @@ body {
 
 img {
     border-radius: 50%;
+    height: auto;
+    width: 200px;
 }
 
 .bold {
@@ -20,4 +27,26 @@ main a {
 main a:hover,
 main a:active {
     color: #131313;
+}
+
+section:nth-of-type(1) {
+    background-color: #D7D7D7;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+
+section:nth-of-type(2) {
+    background-color: #FFEAEA;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+section:nth-of-type(3) {
+    background-color: #EAF9FF;
+    width: 100%;
+    height: auto;
+    padding: 40px;
 }
